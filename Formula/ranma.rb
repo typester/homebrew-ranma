@@ -1,17 +1,17 @@
 class Ranma < Formula
   desc "Programmable macOS menu bar overlay"
   homepage "https://github.com/typester/ranma"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   on_arm do
     url "https://github.com/typester/ranma/releases/download/v#{version}/ranma-arm64-#{version}.tar.gz"
-    sha256 "973e9ff1d46bcf5f72c4b7a8969f789b2a1894acfe9ddb290fb7163316dfa827"
+    sha256 "63c8205fc29a7d164aaacf83bb3f6a40246d8e6518af8aeb956d66640300c31d"
   end
 
   on_intel do
     url "https://github.com/typester/ranma/releases/download/v#{version}/ranma-x86_64-#{version}.tar.gz"
-    sha256 "45821d09abecc4ed8c0ed293b0eac8924a1b760a13a018034947e7214fae7a99"
+    sha256 "a33513a73b7c1835bc0afba2d09ee7ffa2ad91570bf3b15d38a98854006175b4"
   end
 
   def install
